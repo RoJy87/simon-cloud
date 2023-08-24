@@ -1,0 +1,5 @@
+{
+  "PORT": 5000,
+  "dbUrl": "mongodb+srv://danila:SimonS1987@simon-cloud.sffp5kc.mongodb.net/",
+  "secretKey": "simon-secret-key"
+}
