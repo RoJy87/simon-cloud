@@ -1,5 +1,6 @@
 {
   "PORT": 5000,
   "dbUrl": "mongodb+srv://danila:SimonS1987@simon-cloud.sffp5kc.mongodb.net/",
-  "secretKey": "simon-secret-key"
+  "secretKey": "simon-secret-key",
+  "filePath": "/home/simon/Documents/GitHub/My_projects/simon_cloud/server/files"
 }
