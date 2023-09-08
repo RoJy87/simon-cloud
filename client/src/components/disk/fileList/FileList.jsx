@@ -6,7 +6,7 @@ import File from './file/File';
 const FileList = () => {
   const files = useSelector((state) => state.files.files).map((file) => (
     <File
-      key={file.id}
+      key={file._id}
       file={file}
     />
   ));
