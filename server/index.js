@@ -9,7 +9,7 @@ const corsMiddleware = require('./middleware/cors.middleware');
 const app = express();
 const PORT = config.get('PORT');
 
-app.use(fileUpload({}));
+app.use(fileUpload({ defCharset: 'utf8', defParamCharset: 'utf8' }));
 app.use(corsMiddleware);
 app.use(express.json());
 
